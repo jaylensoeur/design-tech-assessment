@@ -1,0 +1,17 @@
+import { Canvas, Meta, Controls } from "@storybook/blocks";
+import * as BoxStories from "./box.stories";
+
+<Meta of={BoxStories} />
+
+# Box
+
+The Box component differs from other containers available in Material UI in that its usage is intended to be
+  multipurpose and open-ended, just like a `<div>`. Components like Container, Stack and Paper, by contrast, feature
+  usage-specific props that make them ideal for certain use cases: Container for main layout orientation, Stack for
+  one-dimensional layouts, and Paper for elevated surfaces.
+
+[https://mui.com/material-ui/react-box/#usage](https://mui.com/material-ui/react-box/#usage)
+
+
+<Canvas of={BoxStories.Demo} />
+<Controls of={BoxStories.Demo} />
