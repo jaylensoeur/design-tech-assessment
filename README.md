@@ -10,7 +10,7 @@
 - run `pnpm install`
 
 ## How to run the development environment locally
-- `pnpm run storybook`
+- `pnpm storybook`
 
 - if you can see storybook http://localhost:6006/?path=/docs/layout-box--docs congradulations! you are ready to go!
 
