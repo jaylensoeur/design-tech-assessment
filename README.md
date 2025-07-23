@@ -35,11 +35,11 @@ It should:
 
 •	Come up with a nice design. Here are some examples
 
-![badge-examples.png](public%2Fimg%2Fbadge-examples.png)
+![badge-examples.png](public/img/badge-examples.png)
 
 Think of it like a simplified version of how a badge in Kmart’s site might call out campaign types.
 
-⸻
+---
 
 ## Requirements
 
@@ -51,7 +51,7 @@ Think of it like a simplified version of how a badge in Kmart’s site might cal
 
 •	Create a Storybook story under data-display/BadgeBuilder.
 
-⸻
+---
 
 ## Bonus (we’ll pair on this during the session)
 
@@ -60,7 +60,7 @@ If you finish early or feel like going the extra mile, you can:
 •	Add support for tooltips or long-label truncation with ellipsis.
 •	Show how this could be extended to support Badging Engine Rules (e.g., pass rules config to render different badge combos).
 
-⸻
+---
 
 ## What we’re evaluating
 
@@ -76,7 +76,7 @@ If you finish early or feel like going the extra mile, you can:
 
 •	Storybook presentation (is it dev-friendly and clear?)
 
-⸻
+---
 
 ### To Run
 
@@ -104,4 +104,3 @@ We’ll do a short session where you might:
 
 •	Add some states (loading, disabled, etc.)
 
-⸻
