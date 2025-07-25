@@ -7,9 +7,9 @@
 
 
 
-## 🎯 Task: Build a “Badge Builder” Component
+## 🎯 Task: Build a “Badge” Component
 
-Your task is to build a reusable Badge Builder component in our DS.
+Your task is to build a reusable Badge component in our DS.
 
 
 Build clean, atomic components using React, HTML, and CSS.
@@ -47,9 +47,9 @@ Think of it like a simplified version of how a badge in Kmart’s site might cal
 
 •	Use styled components or MUI styled() API if custom styles are needed.
 
-•	Place your component inside /components/ui/data-display/badge-builder.
+•	Place your component inside /components/ui/data-display/badge.
 
-•	Create a Storybook story under data-display/BadgeBuilder.
+•	Create a Storybook story under data-display/Badge.
 
 ---
 
