@@ -1,4 +1,6 @@
 import type { Preview } from "@storybook/react";
+// adding global css file to apply tailwind css in storybooks
+import "../src/app/globals.css";
 
 const preview: Preview = {
   parameters: {
