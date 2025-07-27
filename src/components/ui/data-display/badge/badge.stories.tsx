@@ -17,19 +17,19 @@ const meta: Meta = {
     },
     // Only including the controls that are relevant to the component
     controls: {
-      include: ["variant", "children", "size", "isSolid", "icon", "aria-label", "role"],
+      include: ["children", "variant", "isSolid", "size", "icon", "aria-label", "role"],
     },
   },
   argTypes: {
-    variant: {
-      description: "The variant of the badge.",
-      control: { type: "select" },
-      options: ["default", "success", "information", "warning", "danger", "new"],
-    },
     children: {
       description: "The content to display inside the badge.",
       control: { type: "text" },
       defaultValue: "Badge",
+    },
+    variant: {
+      description: "The variant of the badge.",
+      control: { type: "select" },
+      options: ["default", "success", "information", "warning", "danger", "new"],
     },
     isSolid: {
       description: "Whether the badge is solid or not.",
@@ -43,7 +43,7 @@ const meta: Meta = {
     },
     icon: {
       description: "The icon to display inside the badge.",
-      control: { type: "select" },
+      control: { type: "radio" },
       options: ["No Icon", "With Icon"],
       defaultValue: "No Icon",
     },
@@ -84,6 +84,10 @@ export const Basic: Story = {
 
 // Color Variants
 export const AllVariants: Story = {
+  args: {
+    role: "status",
+  },
+
   parameters: {
     title: "All Color Variants",
     docs: {
@@ -95,6 +99,7 @@ export const AllVariants: Story = {
       exclude: ["*"],
     },
   },
+
   render: () => (
     <div className="flex flex-wrap gap-4">
       <div className="flex flex-col gap-3">
