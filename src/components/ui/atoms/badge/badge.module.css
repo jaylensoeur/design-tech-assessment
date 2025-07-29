@@ -1,0 +1,114 @@
+/* Brand Color Primitives - Accessible Colors */
+:root {
+  --font-weight-medium: 500;
+  --radius-none: 0px;
+  --border-width-sm: 1px;
+  --icon-base: 1em;
+  --brand-halloween-bg: #d73a1a;
+  --brand-halloween-text: #ffffff;
+  --brand-mothers-day-bg: #8a2be2;
+  --brand-mothers-day-text: #ffffff;
+  --brand-christmas-red-bg: #6b1f26;
+  --brand-christmas-red-text: #ffffff;
+  --brand-christmas-green-bg: #0f2d1a;
+  --brand-christmas-green-text: #ffffff;
+  --brand-valentines-day-bg: #c41e3a;
+  --brand-valentines-day-text: #ffffff;
+}
+
+/* Base badge styles */
+.badge {
+  display: inline-flex;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: var(--border-width-sm) solid;
+  border-radius: var(--radius-none);
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--font-weight-medium);
+
+  text-wrap: nowrap;
+}
+
+.default {
+  background-color: var(--bg-neutral);
+  color: var(--text-neutral);
+  border-color: var(--border-neutral);
+}
+
+.sale {
+  background-color: var(--success-text);
+  color: white;
+}
+
+.out-of-stock {
+  background-color: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.limited-edition {
+  background-color: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.online-only {
+  background-color: transparent;
+  color: var(--text-neutral);
+  border-color: var(--border-neutral);
+}
+
+.pre-order {
+  background-color: var(--info-bg);
+  color: var(--info-text);
+}
+
+/* Sizes - Only two sizes */
+.small {
+  font-size: var(--font-size-sm);
+}
+
+.medium {
+  font-size: var(--font-size-base);
+}
+
+/* Icon and label */
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.2rem;
+  justify-content: center;
+  width: var(--icon-base);
+  height: var(--icon-base);
+  font-size: inherit;
+}
+
+/* Custom Colors */
+.halloween {
+  background-color: var(--brand-halloween-bg);
+  color: var(--brand-halloween-text);
+  border-color: transparent;
+}
+
+.mothers-day {
+  background-color: var(--brand-mothers-day-bg);
+  color: var(--brand-mothers-day-text);
+  border-color: transparent;
+}
+
+.christmas-red {
+  background-color: var(--brand-christmas-red-bg);
+  color: var(--brand-christmas-red-text);
+  border-color: transparent;
+}
+
+.christmas-green {
+  background-color: var(--brand-christmas-green-bg);
+  color: var(--brand-christmas-green-text);
+  border-color: transparent;
+}
+
+.valentines-day {
+  background-color: var(--brand-valentines-day-bg);
+  color: var(--brand-valentines-day-text);
+  border-color: transparent;
+}

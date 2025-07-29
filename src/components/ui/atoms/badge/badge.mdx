@@ -1,0 +1,18 @@
+import { Canvas, Meta, Controls } from "@storybook/blocks";
+import * as BadgeStories from "./badge.stories";
+import { Badge } from "./badge";
+
+<Meta of={BadgeStories} />
+
+# Badge Component
+
+<Canvas of={BadgeStories.Showcase} />
+The badge component can be used to display semantic information in a consistent format, such as if items are on sale, or
+if they are only available online. To presumed brand requirements, there may be cases in which a custom color tag is
+required, a `customColor` prop is provided to allow this by provided preset colors (i.e. for Halloween) that are
+accessible and match the brand colors.
+
+The badge label is configured with preset labels depending on the variant type, yet it does include an overide if custom text is required.
+
+<Canvas of={BadgeStories.Playground} />
+<Controls of={BadgeStories.Playground} />
